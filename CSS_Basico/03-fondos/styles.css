@@ -1,0 +1,49 @@
+body{
+    background-image: url("imagenes/fondo2.jpg");
+    background-attachment: fixed;
+    background-position: left bottom;
+}
+
+#articulo1{
+    border: 1px solid black;
+    padding: 5px;
+    background-color: bisque;
+}
+
+#articulo2{
+    background-image: url("imagenes/fondo1.jpg");
+    background-size: 50%;
+}
+
+p{
+    background-color: rgba(210, 210, 210, 0.75);
+}
+
+/*---------------- Propiedades de Texto ------------------*/
+H1{
+    text-align: center;
+    line-height: 35px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.subtitulos{
+    text-align: center;
+}
+
+#articulo1 p{
+    text-decoration: line-through;
+} 
+
+#articulo2{
+    word-spacing: 10px;
+    letter-spacing: 3px;
+}
+
+#articulo3{
+    text-align: justify;
+}
+
+#articulo4{
+    text-indent: 30px;
+}

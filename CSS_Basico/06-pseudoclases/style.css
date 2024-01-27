@@ -1,0 +1,59 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: bisque;
+}
+
+/*--------- LISTA -------------*/
+ul li{
+    font-size: 20px;
+}
+
+ul li:first-child{
+   color: purple; 
+   font-weight: bold;
+}
+
+ul li:nth-child(2){
+    color: orange;
+}
+
+ul li:last-child{
+    color: red;
+    font-weight: bold;
+ }
+
+ /*----------- ENLACES -----------*/
+ #mi-enlace{
+    font-size: 20px;
+    color: lightcoral;
+ }
+
+ #mi-enlace:link{
+    color: blueviolet;
+ }
+
+ #mi-enlace:visited{
+    color: orangered;
+ }
+
+ #mi-enlace:hover{
+    color: blue;
+ }
+
+ #mi-enlace:active{
+    font-family: Arial, Helvetica, sans-serif;
+    color:aquamarine;
+ }
+
+/*--------- INPUT ------------*/
+input[type="text"]{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+input[type="text"]:focus{
+    border: 4px dashed red;
+}

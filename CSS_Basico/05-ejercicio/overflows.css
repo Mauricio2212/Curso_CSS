@@ -1,0 +1,22 @@
+#caja6-1, #caja7-1{
+    width: 350px;
+    height: 300px;
+    background-color: #BDB76B;
+    float: left;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#caja6-1{
+    overflow: hidden;
+}
+
+#caja7-1{
+    overflow-y: scroll;
+    /*
+    overflow-x: scroll;
+    overflow: scroll;
+    */
+}

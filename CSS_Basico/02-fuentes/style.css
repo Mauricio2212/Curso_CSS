@@ -1,0 +1,57 @@
+/*----------------- Fuentes personalizadas -----------------*/
+@font-face{
+    font-family: RobotoMonoFuenteCustom;
+    src:url(fuentes/Roboto_Mono/static/RobotoMono-Light.ttf);
+}
+
+h1{
+    font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+h2{
+    font-family: RobotoMonoFuenteCustom, "Comic Sans MS";
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*--------------------- Colores ----------------------------*/
+
+/*Colores del Sistema*/
+h1{
+    color: cadetblue;
+}
+
+h2{
+    color: cornflowerblue;
+}
+/*Colores hexadecimales*/
+p{
+    color: #008b8b;
+}
+
+h3{
+    color: #2f4f4f;
+}
+/*Colores RGB*/
+#subtitulo3{
+    color: rgb(162, 123, 117);
+}
+
+#parrafo3{
+    color: rgb(104, 172, 184);
+}
+/*Colores RGBA*/
+#subtitulo4{
+    color: rgba(255, 165, 0, 0.6);
+}
+#parrafo4{
+    color: rgba(106, 90, 205, 0.7);
+}

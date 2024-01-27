@@ -1,0 +1,164 @@
+/*------------------- ANIMACIONES -----------------------*/
+#boton{
+    display: block;
+    padding: 20px;
+    background-color: green;
+    color: white;
+    width: 200px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    border: 3px solid rgb(99, 224, 99);
+    transition: all 500ms;
+}
+
+#boton:hover{
+    border-radius: 15px;
+    background-color: orangered;
+    border: 3px solid red;
+}
+
+#boton2{
+    display: block;
+    padding: 20px;
+    background-color: green;
+    color: white;
+    width: 200px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    border: 3px solid rgb(99, 224, 99);
+    transition: border 500ms, background 3s,  border-radius 1s;
+}
+
+#boton2:hover{
+    border-radius: 15px;
+    background-color: orangered;
+    border: 3px solid red;
+}
+
+/*------------------ ANIMACIONES ---------------------*/
+
+#caja{
+    margin-top: 25px;
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    border: 5px solid black;
+    font-size: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 80px;
+
+    animation-name: desplazamiento;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes desplazamiento{
+    from{
+        margin-left: 0px;
+    }
+    to{
+        margin-left: 300px;
+    }
+}
+
+#caja2{
+    margin-top: 25px;
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    border: 5px solid black;
+    font-size: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 80px;
+
+    animation-name: desplazamiento2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes desplazamiento2{
+    0%{
+        margin-left: 0px;
+    }
+    50%{
+        margin-left: 300px;
+    }
+    100%{
+        margin-left: 0px;
+    }
+}
+
+#caja3{
+    margin-top: 25px;
+    width: 150px;
+    height: 150px;
+    background-color: orangered;
+    border: 5px solid black;
+    font-size: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 80px;
+
+    animation-name: desplazamiento3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes desplazamiento3{
+    0%{
+        margin-left: 0px;
+        transform: rotate(0deg);
+    }
+    50%{
+        margin-left: 300px;
+        transform: rotate(360deg);
+    }
+    100%{
+        margin-left: 0px;
+        transform: rotate(0deg);
+    }
+}
+
+#caja4{
+    margin-top: 25px;
+    width: 150px;
+    height: 150px;
+    background-color: cornflowerblue;
+    border: 5px solid black;
+    font-size: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 80px;
+
+    animation-name: desplazamiento4;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes desplazamiento4{
+    0%{
+        margin-left: 0px;
+        transform: rotate(0deg);
+    }
+    50%{
+        margin-left: 300px;
+        transform: rotate(360deg);
+        border-radius: 999px;
+    }
+    75%{
+        background-color: orangered ;
+    }
+    100%{
+        margin-left: 0px;
+        transform: rotate(0deg);
+    }
+}
