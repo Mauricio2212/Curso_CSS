@@ -1,0 +1,19 @@
+//Declaracion de variables
+$fuente-tipica: sans-serif, Helvetica, Arial;
+$color-fondo: #ccc;
+$color-letra: red;
+$color-secundario: rgb(122, 20, 20);
+
+
+body{
+    background-color: $color-fondo;
+}
+
+h1{
+    color: $color-letra;
+    font-family: $fuente-tipica;
+}
+
+p{
+    color: $color-secundario;
+}
