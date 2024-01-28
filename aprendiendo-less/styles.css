@@ -1,0 +1,14 @@
+body {
+  background-color: lightblue;
+}
+h1 {
+  font-family: Arial;
+}
+.informacion ul a {
+  color: red;
+  font-size: 40px;
+}
+.informacion {
+  box-shadow: 0px 0px 5px black;
+  text-shadow: 0px 0px 5px black;
+}
