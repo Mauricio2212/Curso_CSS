@@ -76,6 +76,25 @@ p {
   border-color: green;
 }
 
+.clearfix {
+  clear: both;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.cajas {
+  width: 900px;
+  margin: 0px auto;
+}
+
+.caja, .caja2 {
+  float: left;
+  width: 22.2222222222%;
+  margin: 10px;
+}
+
 h1 {
   text-decoration: underline;
 }
