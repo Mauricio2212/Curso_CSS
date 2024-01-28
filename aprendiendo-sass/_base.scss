@@ -78,4 +78,32 @@ p{
     @include crearBorder2(green, 5px, yellow);
 }
 
+//Herencia 
+//Elemento Padre
+%alert-normal{
+    border: 1px solid gray;
+    background-color: #eee;
+    color: black;
+    padding: 5px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+//Elementos Hijo
+.alert {
+    @extend %alert-normal;
+}
+
+.alert-danger{
+    @extend %alert-normal;
+    color: $color-letra;
+    border-color: red;
+}
+
+.alert-succes{
+    @extend %alert-normal;
+    color: green;
+    border-color: green;
+}
+
 
