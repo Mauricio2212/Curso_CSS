@@ -30,3 +30,31 @@ h1{
 .informacion{
     .sombras(5px);
 }
+
+//Operadores
+h1{
+    font-size: 30px + 5px;
+}
+
+//Condicionales
+.textoNegro (@value) when (@value=true){
+    color: black;
+}
+
+h1 {
+    color: green;
+    .textoNegro(true);
+}
+
+//Bucles
+
+//hace falta el first child
+.loop(@cont) when (@cont > 0) {
+    .loop((@cont - 1));
+    height: ((900px/2) * @cont);
+}
+
+.informacion {
+    height: 900px;
+    .loop(5);
+}
