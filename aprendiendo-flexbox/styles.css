@@ -78,7 +78,8 @@ body {
 .red {
     background-color: red;
     order: 2;
-    flex-grow: 4;
+    /*Disminuye el tamaño de las cajasgi*/
+    flex-shrink: 10;
 }
 
 .green {
