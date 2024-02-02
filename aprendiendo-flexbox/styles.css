@@ -62,6 +62,7 @@ body {
 
 
 .caja {
+    flex-grow: 1;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -77,19 +78,23 @@ body {
 .red {
     background-color: red;
     order: 2;
+    flex-grow: 4;
 }
 
 .green {
     background-color: green;
     order: 1;
+    flex-grow: 10;
 }
 
 .blue {
     background-color: blue;
     order: 4;
+    flex-grow: 3;
 }
 
 .orange {
     background-color: orange;
     order: 3;
+    flex-grow: 12;
 }
