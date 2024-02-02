@@ -61,8 +61,6 @@ body {
 }
 
 
-
-
 .caja {
     font-size: 20px;
     font-weight: bold;
@@ -74,18 +72,24 @@ body {
     background-color: gray;
 }
 
+
+/*Orden*/
 .red {
     background-color: red;
+    order: 2;
 }
 
 .green {
     background-color: green;
+    order: 1;
 }
 
 .blue {
     background-color: blue;
+    order: 4;
 }
 
 .orange {
     background-color: orange;
+    order: 3;
 }
