@@ -1,6 +1,7 @@
 /*Estilos Generales*/
 * {
-    text-decoration: noen;
+    text-decoration: none;
+    list-style: none;
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
@@ -16,4 +17,32 @@
     margin-bottom: 40px;
 
     min-height: 600px;
+}
+
+/*Encabezado*/
+#header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+    height: 120px;
+    border-bottom: 1px solid rgba(225, 225, 226, 0.8);
+}
+
+.logo {
+    flex-basis: 65%;
+
+    padding: 10px;
+    margin-left: 20px;
+    color: black;
+    text-shadow: 1px 1px 0px #ccc;
+    text-transform: uppercase;
+}
+
+.logo h1 {
+    font-family: Helvetica;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 35px;
 }
