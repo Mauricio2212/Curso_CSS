@@ -25,6 +25,9 @@ body {
     */
     justify-content: space-evenly;
 
+    height: 400px;
+    align-items: flex-start;
+
     border: 3px solid black;
     padding: 5px;
 }
@@ -87,6 +90,8 @@ body {
     order: 2;
     /*Disminuye el tamaño de las cajas*/
     /*flex-shrink: 10;*/
+
+    margin-top: 6%;
     
 }
 
@@ -94,16 +99,19 @@ body {
     background-color: green;
     order: 1;
     /*flex-grow: 10;*/
+    align-self: flex-start;
 }
 
 .blue {
     background-color: blue;
     order: 4;
     /*flex-grow: 3;*/
+    align-self: flex-end;
 }
 
 .orange {
     background-color: orange;
     order: 3;
     /*flex-grow: 12;*/
+    align-self: center;
 }
