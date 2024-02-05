@@ -1,4 +1,5 @@
 body {
+    --rojo: red;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -62,7 +63,9 @@ body {
 
 
 .caja {
-    flex-grow: 1;
+    width: 25%;
+    flex-basis: calc((100% / 3) - 68px);
+    /*flex-grow: 1;*/
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -76,26 +79,27 @@ body {
 
 /*Orden*/
 .red {
-    background-color: red;
+    background-color: var(--rojo);
     order: 2;
-    /*Disminuye el tamaño de las cajasgi*/
-    flex-shrink: 10;
+    /*Disminuye el tamaño de las cajas*/
+    /*flex-shrink: 10;*/
+    
 }
 
 .green {
     background-color: green;
     order: 1;
-    flex-grow: 10;
+    /*flex-grow: 10;*/
 }
 
 .blue {
     background-color: blue;
     order: 4;
-    flex-grow: 3;
+    /*flex-grow: 3;*/
 }
 
 .orange {
     background-color: orange;
     order: 3;
-    flex-grow: 12;
+    /*flex-grow: 12;*/
 }
