@@ -1,9 +1,22 @@
+/*Estilos Generales*/
 body {
     font-family: sans-serif;
     text-align: center;
 }
 
+/*Contenido*/
+
 .layout {
+    width: 1200px;
+    margin: 0px;
+
+    /*CSS GRID*/
+    display: grid;
+    grid-template-columns: calc(50% - 10px) calc(50% - 10px);
+
+    /*Espaciado*/
+    grid-gap: 10px;
+    padding: 10px;
     border: 3px solid orangered;    
 }
 
@@ -13,7 +26,7 @@ body {
     color: white;
     padding: 20px;
     border: 4px solid #222;
-    margin: 10px;
+    /*margin: 10px;*/
     background-color: grey;
 }
 
