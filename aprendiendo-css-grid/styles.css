@@ -6,13 +6,13 @@ body {
 
 /*Contenido*/
 
-.layout {
+.layout, .layout2, .layout3, .layout4 {
     width: 1200px;
     margin: 0px;
 
     /*CSS GRID*/
     display: grid;
-    grid-template-columns: calc(50% - 10px) calc(50% - 10px);
+    grid-template-columns: repeat(4, calc(25% - 10px));
 
     /*Espaciado*/
     grid-gap: 10px;
@@ -20,7 +20,26 @@ body {
     border: 3px solid orangered;    
 }
 
-.layout .caja {
+.layout2 {
+    margin-top: 10px;
+
+    grid-template-columns: repeat(2, calc(25% - 10px)) calc(15% - 10px) calc(35% - 10px);
+}
+
+.layout3 {
+    margin-top: 10px;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.layout4 {
+    margin-top: 10px;
+
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.layout .caja, .layout2 .caja, 
+.layout3 .caja, .layout4 .caja {
     font-size: 20px;
     font-weight: bold;
     color: white;
@@ -30,18 +49,22 @@ body {
     background-color: grey;
 }
 
-.layout .red {
+.layout .red, .layout2 .red, 
+.layout3 .red, .layout4 .red {
     background-color: red;
 }
 
-.layout .green {
+.layout .green, .layout2 .green, 
+.layout3 .green, .layout4 .green {
     background-color: green;
 }
 
-.layout .blue {
+.layout .blue, .layout2 .blue, 
+.layout3 .blue, .layout4 .blue {
     background-color: blue;
 }
 
-.layout .pink {
+.layout .pink, .layout2 .pink,
+.layout3 .pink, .layout4 .pink {
     background-color: pink;
 }
