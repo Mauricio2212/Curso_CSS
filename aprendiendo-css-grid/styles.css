@@ -13,6 +13,7 @@ body {
     /*CSS GRID*/
     display: grid;
     grid-template-columns: repeat(4, calc(25% - 10px));
+    grid-template-rows: repeat(4, 1fr);
 
     /*Espaciado*/
     grid-gap: 10px;
@@ -22,14 +23,20 @@ body {
 
 .layout2 {
     margin-top: 10px;
+    height: 1200px;
+    height: 400px;
 
     grid-template-columns: repeat(2, calc(25% - 10px)) calc(15% - 10px) calc(35% - 10px);
+    grid-template-rows: 50% 10% 45%;
 }
 
 .layout3 {
     margin-top: 10px;
+    height: 1200px;
+    height: 400px;
 
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
 }
 
 .layout4 {
@@ -67,4 +74,14 @@ body {
 .layout .pink, .layout2 .pink,
 .layout3 .pink, .layout4 .pink {
     background-color: pink;
+}
+
+.layout .orange, .layout2 .orangek,
+.layout3 .orange, .layout4 .orange {
+    background-color: orange;
+}
+
+.layout .lightblue, .layout2 .lightblue,
+.layout3 .lightblue, .layout4 .lightblue {
+    background-color: lightblue;
 }
