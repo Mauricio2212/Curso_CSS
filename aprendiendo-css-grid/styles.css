@@ -8,6 +8,7 @@ body {
 
 .layout, .layout2, .layout3, .layout4 {
     width: 1200px;
+    min-height: 400px;
     margin: 0px;
 
     /*CSS GRID*/
@@ -42,7 +43,7 @@ body {
 .layout4 {
     margin-top: 10px;
 
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr); 
 }
 
 .layout .caja, .layout2 .caja, 
@@ -59,6 +60,7 @@ body {
 .layout .red, .layout2 .red, 
 .layout3 .red, .layout4 .red {
     background-color: red;
+    grid-column: 1 / 3;
 }
 
 .layout .green, .layout2 .green, 
@@ -74,7 +76,10 @@ body {
 .layout .pink, .layout2 .pink,
 .layout3 .pink, .layout4 .pink {
     background-color: pink;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
+
 
 .layout .orange, .layout2 .orangek,
 .layout3 .orange, .layout4 .orange {
