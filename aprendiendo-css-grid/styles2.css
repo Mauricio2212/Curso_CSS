@@ -1,0 +1,37 @@
+/*------------- Generales ----------*/
+#website {
+    width: 75%;
+    height: 100vh;
+    margin: 0px auto;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+#cabecera { 
+    background-color: blue;
+    color: white;
+}
+
+#menu {
+    background-color: lightblue;
+    color: black;
+}
+
+#contenido {
+    background-color: #eee;
+}
+
+#contenido article {
+    background-color: #ccc;
+    border: 1px solid #555;
+}
+
+#lateral {
+    background-color: orange;
+    color: white;
+}
+
+#pie-pagina {
+    background-color: black;
+    color: white;
+}
