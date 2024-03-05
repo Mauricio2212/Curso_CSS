@@ -173,6 +173,10 @@
 }
 
 #footer {
+    display: grid;
+    grid-template-columns: 1fr 29%;
+    align-items: center;
+    justify-content: start;
 
     height: 120px;
     align-items: center;
@@ -182,7 +186,7 @@
 #footer .logo {
     opacity: 0.5;
     
-    text-align: right;
+    text-align: left;
     margin-right: 20px;
 }
 
